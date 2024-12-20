@@ -6,7 +6,7 @@ let finalPrice = 0; // initial final price is 0
 let finalQuantity = 0; // initial final quantity is 0
 
 // function to change the watch photo
-function changeWatchPhoto(color) {
+function changeThumbnail(color) {
   const thumbnail = document.getElementById("product_thumbnail"); // get the thumbnail
 
   const images = {
